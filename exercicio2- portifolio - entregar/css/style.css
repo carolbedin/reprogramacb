@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, .sobreMim{
+    background-color: black;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    height: 10vh;
+    width: 100%;
+}
+
+ul > li {
+    list-style: none;
+}
+
+body{
+    color: grey;
+}
+
+.banner{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 200px;
+    font-size: 1.5rem;
+}
+.banner_title-color{
+    color: #5BCBB2;
+}
+.seta{
+    padding: 50px;
+}
+.seta_img{
+    width: 2%;
+}
+.projetos_title,  .titles{
+    color: #B3B2B2;
+    text-align: center;
+    padding: 50px;
+}
+.projetos_site{
+    display: flex;
+}
+.projetos{
+    height: 90vh;
+}
+.site_img{
+    width:90%;
+}
+.site_title{
+    color: #B3B2B2;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 20px;
+    text-align: center;
+}
+.btn_link{
+    color: #48CFAD;
+    border: 2px solid #48CFAD;
+    padding: 7px;
+    margin-top: 18px;
+    font-size: 0.87rem;
+    margin-bottom: 21px;
+}
+.sobreMim{
+    background-color: black;
+    text-align: center;
+}
+.sobreMim_img{
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 157px;
+    object-fit: cover;
+    width: 157px;
+}
+
+.contato{
+    height: 50vh;
+}
+.contato_icons{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+}
+.contato_img{
+    width: 10%;    
+}
+.contato_img-icon{
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    padding: 10px;
+
+}
+@media (max-width: 420px){
+    body{
+        background-color: beige;
+    }
+}    
+    nav{
+        font-size: 0.8rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    .banner {
+        text-align: left;
+        text-transform: uppercase;
+        margin-top: 100px;
+        font-size: 0.9rem;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .banner p{
+        font-size: 0.9rem;
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .banner_title-color {
+        color: #5BCBB2;
+    }
+    .projetos{
+        height: auto;
+    }
+    .projetos_title, .titles {
+        padding: 30px;
+        font-size: 1.4rem;
+    }
+    .projetos_site {
+        display: block;
+    }
+    .seta_img {
+        width: 35px;
+    }
+    .seta {
+        padding: 50px;
+        text-align: center;
+    }  
+    .site_title {
+        color: #131212;
+        width: 90%;
+        margin-top: 20px;
+        font-size: 0.9rem;
+    } 
+    .btn_link {
+        color: #f4f7f6;
+        border: 2px solid #48CFAD;
+        background-color: #48cfad;
+        padding: 7px;
+        margin-top: 18px;
+        text-decoration:none;
+        border-radius: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    } 
+    .projetos_title, .titles {
+        padding: 30px;
+        font-size: 1.9rem;
+        color: #f4f7f6;
+        font-family: 'Roboto', sans-serif;
+    }
+    .sobreMim_description {
+        font-size: 0.8rem;
+        padding: 0.5%;
+        margin-top: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .contato_icons {
+        display: block;
+        justify-content: center;
+        width: 80px;
+    }
+    .projetos_title, .titles {
+        padding: 10px;
+        font-size: 2rem;
+        color: #827d7d;
+        font-family: 'Roboto', sans-serif;
+    }
+    .contato_img-icon {
+        display: block;
+        width: 90%;
+        margin-left: 110px;
+        margin-top: 10px;
+    }
+    .btn_eu {
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #f593e0;
+    }
+    .contato {
+        height: 60vh;
+    }
+    footer {
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+}
